@@ -8,6 +8,7 @@
 .buildlog/
 .history
 .svn/
+key.properties
 
 # IntelliJ related
 *.iml
@@ -30,6 +31,11 @@
 .pub-cache/
 .pub/
 /build/
+
+#Firebase related
+android/app/google-services.json
+ios/firebase_app_id_file.json
+lib/firebase_options.dart
 
 # Web related
 lib/generated_plugin_registrant.dart
